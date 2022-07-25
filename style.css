@@ -1,0 +1,55 @@
+/* b */
+body {
+    background: #1d0303;
+    color: white;
+}
+/* this is button styles */
+button {
+    width: 100px;
+    height: 40px;
+    border: 3px soldi white;
+    border-radius: 50px;
+    background: #810202;
+    color: rgb(248, 248, 248);
+    cursor: pointer;
+    outline: none;
+    margin-top: 50px;
+    font-size: 25px;
+}
+button:hover{
+    color:cyan;
+    
+}
+/* stopwatch id css */
+#stopwatch {
+    font-size: 100px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    /* border: 2px solid blue; */
+}
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 48.4%;
+    transform: translate(-51.6%, -45%);
+}
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
+/* this is border css  */
+.border{
+    margin-left: 390px;
+    margin-top: 160px;
+    height: 410px;
+    width: 750px;
+    border: 2px solid blue;
+    border-radius: 85px;
+    /* position: absolute; */
+    align-content: center;
+    position: relative;
+    position: absolute;
+    background-color: black;
+}
